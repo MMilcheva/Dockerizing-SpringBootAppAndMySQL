@@ -2,7 +2,7 @@
 version: '3.8'
 services:
   app:
-    image: marianamilcheva/dockerdemoimage:0.1
+    image: 104829251999.dkr.ecr.eu-north-1.amazonaws.com/marianamilcheva/dockerdemoimage:0.1
     ports:
       - 8080:8080
     environment:

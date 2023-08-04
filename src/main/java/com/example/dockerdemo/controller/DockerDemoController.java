@@ -16,7 +16,7 @@ import java.util.List;
 public class DockerDemoController {
 
 @Autowired
-DemoRepository demoRepository;
+DemoRepository demoRepository;//TODO to be refactored: controller-service-repository
 
     @GetMapping("testAPI")
     public String testMethod() {
